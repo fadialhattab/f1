@@ -22,7 +22,7 @@ const Login = () => {
      localStorage.setItem('user', JSON.stringify(response.data))
 
      // update the auth context
-     window.location.reload(false);
+     window.location.reload(true);
      // dispatch({type: 'LOGIN', payload: json})
 
      // update loading state
